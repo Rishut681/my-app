@@ -21,13 +21,35 @@ function App() {
                 <li><a href="/">Review</a></li>
                 <li><a href="/">Carrier</a></li>
                 <li>
-                <div className="right">
-                  <p>Dial for any Query </p>
-                  <p>xx-xxxx88</p>
-                </div>
+                  <div className="right">
+                    <p>Dial for any Query </p>
+                    <p>xx-xxxx88</p>
+                  </div>
                 </li>
               </ul>
             </nav>
+          </div>
+        </div>
+        <div className="content">
+          <div>
+            <p>A driving program
+              designed for you to be safe and confident on the road.</p>
+          </div>
+          <div>
+            <img src="https://usdrivingschool.com/wp-content/uploads/2022/09/car-1.png" alt="..." />
+          </div>
+          <div>
+
+            <ul>
+              <li>Responsibilities as a Driver</li>
+              <li>Vehicle Controls</li>
+              <li>Traffics Signs & Control Devices</li>
+              <li>Rules of the Road</li>
+              <li>Encountering other Road Users</li>
+              <li>Driving in Dangerous Condition</li>
+              <li>Highway Driving</li>
+            </ul>
+
           </div>
         </div>
       </div>

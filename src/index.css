@@ -60,3 +60,22 @@
     padding: 3px 3px;
     margin-left:30px;
 }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .content p{
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style: italic ;
+    width: 32%;
+    text-align: center;
+    margin: 10px 8px;
+ }
+ .content img{
+    width:150%;
+ }
