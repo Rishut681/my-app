@@ -30,6 +30,8 @@ function App() {
             </nav>
           </div>
         </div>
+        <div className="break"><hr /></div>
+
         <div className="content">
           <div>
             <p>A driving program
@@ -39,7 +41,7 @@ function App() {
             <img src="https://usdrivingschool.com/wp-content/uploads/2022/09/car-1.png" alt="..." />
           </div>
           <div>
-
+            <h3>Learn With us.</h3>
             <ul>
               <li>Responsibilities as a Driver</li>
               <li>Vehicle Controls</li>
@@ -52,6 +54,7 @@ function App() {
 
           </div>
         </div>
+        <div className="break"><hr /></div>
       </div>
     </>
   );
