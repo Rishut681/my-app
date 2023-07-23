@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 .body{
     margin:20px 15px;
     border: 2px solid black;
     border-radius: 8px;
     padding:5px 5px;
     height : auto;
-    background-color: rgba(0, 0, 0, 0.32);
+    background-color:rgb(244, 241, 241);
+    color: black;
 }
 
 .header{
     margin: 10px 8px;
-    height: 100px;
+    height: 80px;
 }
 
 .logo img{
@@ -54,12 +62,20 @@
     cursor: grab;
 }
 
-.right{
+.right p{
     color:rgb(5, 5, 5);
     font-size:large;
     font-weight: bolder;
     padding: 3px 3px;
     margin-left:30px;
+}
+
+.right p:hover {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(87, 104, 189);
+    background-color:rgb(200, 190, 178);
+    cursor: grab;
 }
 
 .break{

@@ -1,6 +1,7 @@
-import React from 'react'
+import react, {useState} from "react"
 
 export default function Navbar() {
+
     return (
         <>
             <div className="header">
@@ -19,12 +20,11 @@ export default function Navbar() {
                             <li><a href="/">Review</a></li>
                             <li><a href="/">Carrier</a></li>
                             <li>
-                                <div className="right">
-                                    <p>Dial for any Query </p>
-                                    <p>xx-xxxx88</p>
-                                </div>
                             </li>
                         </ul>
+                        <div className="right">
+                            <p>Dial for any Query <br/>xx-xxxx88</p>
+                        </div>
                     </nav>
                 </div>
             </div>
