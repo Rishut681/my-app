@@ -1,4 +1,4 @@
-import react, {useState} from "react"
+import React from 'react'
 
 export default function Navbar() {
 
@@ -9,7 +9,7 @@ export default function Navbar() {
                     <img src="https://i.pinimg.com/originals/12/34/f5/1234f5670f0ba42a6b735d9c568566b3.jpg" alt="..." />
                 </div>
                 <div>
-                    <nav className="navbar">
+                    <nav className='navbar'>
                         <ul>
                             <li><a href="/">Home</a></li>
                             <li><a href="/">About</a></li>
@@ -23,7 +23,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <div className="right">
-                            <p>Dial for any Query <br/>xx-xxxx88</p>
+                            <p>Dial for any Query <br />xx-xxxx88</p>
                         </div>
                     </nav>
                 </div>

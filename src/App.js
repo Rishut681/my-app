@@ -5,7 +5,7 @@ import Detail from './component/Detail';
 function App() {
   return (
     <>
-      <div className='body'>
+      <div className='app-body'>
         <Navbar/>
         <div className="break"><hr /></div>
 
