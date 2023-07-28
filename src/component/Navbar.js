@@ -1,5 +1,5 @@
 import React from 'react'
-
+import DarkMode1 from "./DarkMode1" ;
 export default function Navbar() {
 
     return (
@@ -24,6 +24,7 @@ export default function Navbar() {
                         </ul>
                         <div className="right">
                             <p>Dial for any Query <br />xx-xxxx88</p>
+                            <DarkMode1/>
                         </div>
                     </nav>
                 </div>
